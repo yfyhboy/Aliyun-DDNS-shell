@@ -16,7 +16,7 @@
   - ipv6_url        把url的拷贝到浏览器，试试是否能获取到ipv6地址，保留一个能用的，剩下加#注释掉
   - cpu             选择CPU平台，目前支持amd64和arm64
 3. 保存文件，并把aliyunDDNS.sh拷贝到主机中，可以用winscp或tftp等，只要拷进去就行  
-4. 添加执行权限 chmod + x aliyunDDNS.sh
+4. 添加执行权限 chmod +x aliyunDDNS.sh
 5. 执行脚本./aliyunDDNS.sh
 6. 如果运行成功，设置crontab定时运行，3分钟或5分钟跑一次都可以
 
