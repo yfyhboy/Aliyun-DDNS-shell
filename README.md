@@ -5,7 +5,7 @@
 
 ## 如何使用  
 
-1. 下载aliyunddns.sh文件  
+1. 下载aliyunDDNS.sh文件  
 2. 修改里面的配置信息：  
   - aliddns_name    例如域名是abc.def.com，这个地方就填abc
   - aliddns_domain  例如域名是abc.def.com，这个地方就填def.com
@@ -22,4 +22,4 @@
 
 ## 可能遇到的问题
 
-在windows编辑器里面保存的.sh脚本，有可能不能在linux运行，这是windows文件保存格式的问题。如果用的是notepad++编辑器，在界面右下方有个Windows(CR LF)，双击改成Unix(LF)再保存就可以了，如果是其他编辑器请自行baidu解决
+在windows编辑器里面保存的.sh脚本，有可能拷贝到linux里就不能运行了，这是windows文件保存格式的问题。如果用的是notepad++编辑器，在界面右下方有个Windows(CR LF)，双击改成Unix(LF)再保存就可以了，如果是其他编辑器请自行baidu解决。
