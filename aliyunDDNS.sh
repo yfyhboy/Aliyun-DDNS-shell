@@ -2,7 +2,7 @@
 
 ####设置自己的阿里云DDNS信息
 aliddns_name="***"								#子域名, 例如abc.def.com, 这里填abc
-aliddns_domain="****.***"						#域名, 例如abc.def.com, 这里填def.com
+aliddns_domain="****.***"							#域名, 例如abc.def.com, 这里填def.com
 aliddns_ak="******"								#access-key-id
 aliddns_sk="******"								#access-key-secret
 aliddns_type="A"								#A是IPV4, AAAA是IPV6
@@ -14,7 +14,7 @@ aliddns_type="A"								#A是IPV4, AAAA是IPV6
 ipv4_url="http://ipv4.icanhazip.com"
 #################################
 
-####获取本机IPV4的网址
+####获取本机IPV6的网址
 ####手动测试选择一个
 #ipv6_url="http://v6.ip.zxinc.org/getip"
 #ipv6_url="http://v6.ipv6-test.com/api/myip.php"
