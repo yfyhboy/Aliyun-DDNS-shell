@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 ####设置自己的阿里云DDNS信息
 aliddns_name="***"								#子域名, 例如abc.def.com, 这里填abc
