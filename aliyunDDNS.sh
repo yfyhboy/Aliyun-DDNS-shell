@@ -65,8 +65,8 @@ echo "本地IP地址：$ip"
 
 ####读取阿里云解析记录
 echo "读取阿里云解析记录：$aliddns_name.$aliddns_domain"
-#server_ip=`/root/aliyun alidns  DescribeDomainRecords --DomainName $aliddns_domain --RRKeyWord $aliddns_name --Type AAAA | grep -E "Value" | cut -d '"' -f4`
-text=`/root/aliyun alidns  DescribeDomainRecords --DomainName $aliddns_domain --RRKeyWord $aliddns_name --Type $aliddns_type`
+#server_ip=`aliyun alidns  DescribeDomainRecords --DomainName $aliddns_domain --RRKeyWord $aliddns_name --Type AAAA | grep -E "Value" | cut -d '"' -f4`
+text=`aliyun alidns  DescribeDomainRecords --DomainName $aliddns_domain --RRKeyWord $aliddns_name --Type $aliddns_type`
 server_ip=`echo $text  | grep -Eo '"Value": "[0123456789abcdef:]+"' | cut -d'"' -f4`
 recordid=`echo $text  | grep -Eo '"RecordId": "[0-9]+"' | cut -d':' -f2 | tr -d '"'`
 echo "读取到解析记录：$server_ip"
