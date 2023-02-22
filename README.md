@@ -19,7 +19,3 @@
 4. 添加执行权限 chmod +x aliyunDDNS.sh
 5. 执行脚本./aliyunDDNS.sh
 6. 如果运行成功，设置crontab定时运行，3分钟或5分钟跑一次都可以
-
-## 可能遇到的问题
-
-在windows编辑器里面保存的.sh脚本，有可能拷贝到linux里就不能运行了，这是windows文件格式的问题。如果用的是notepad++编辑器，在界面右下方有个Windows(CR LF)，双击改成Unix(LF)再保存就可以了，如果是其他编辑器请自行baidu解决。
